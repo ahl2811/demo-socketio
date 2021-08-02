@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "socket.io": "^4.1.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
